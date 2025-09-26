@@ -13,10 +13,10 @@ import java.time.LocalDateTime;
 @Getter
 public class UserDto {
 
-    @JsonIgnore
+//    @JsonIgnore
     private Long id;
 
-    @JsonProperty("user_name")
+//    @JsonProperty("user_name")
     private String name;
     private String email;
 
